@@ -1,0 +1,49 @@
+@media screen and (min-width: 375px) {
+    body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .alert-info {
+        width: 100%;
+        height: 20px;
+        background: #CCFFFF;
+        margin: 1em;
+        padding: 1em;
+         border: 1px solid grey;
+    }
+    .alert-info a {
+        text-decoration: none;
+        color: black;
+    }
+
+    h1 {
+        margin: 1em;
+        padding: 1em;
+    }
+    nav {
+        width: 100%;
+    }
+    .nav-links {
+        display: flex;
+        flex-direction: column;
+
+
+    }
+    .nav-links li {
+        width: 100%;
+        background: #CCCCCC;
+        list-style: none;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .nav-links a {
+
+    }
+}
