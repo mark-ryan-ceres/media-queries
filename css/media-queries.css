@@ -71,6 +71,9 @@
         margin: 1em;
         padding-top: 2em;
     }
+    #social-media-links {
+        display: none;
+    }
 }
 @media screen and (min-width: 960px) {
     body {
@@ -131,10 +134,26 @@
     .sub-section {
         grid-area: 3 / 2 / 4 / 3;
     }
-    footer {
-        grid-area: 4 / 1 / 5 / 3;
-    }
     footer p {
         margin-left: 1em;
+        grid-area: 4 / 1 / 5 / 2;
+    }
+    #social-media-links {
+        grid-area: 4 / 2 / 5 / 3;
+
+    }
+    #social-media-links ul {
+        display: flex;
+        justify-content: center;
+
+    }
+    #social-media-links li {
+        list-style: none;
+        margin: .5em;
+
+    }
+    #social-media-links i {
+        font-size: 40px;
+        color: black;
     }
 }
