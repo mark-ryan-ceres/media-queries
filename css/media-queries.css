@@ -52,8 +52,9 @@
     }
 
     img {
-        width: 339px;
-        height: 224px;
+        display: flex;
+        width: 90%;
+        height: auto;
         margin: .5em auto .5em auto;
     }
     section {
